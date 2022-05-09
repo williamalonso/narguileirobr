@@ -9,6 +9,7 @@ body {
 }
 .container-one {
     background-image: url('_img/coal2.jpg');
+    background-repeat: no-repeat;
     max-width: 100%!important;
     height: 100vh;
     color: white;
@@ -19,6 +20,16 @@ body {
     text-align: center;
     margin: 200px auto;
 }
+a {
+    color: white!important;
+}
 .bi-instagram {
     font-size: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .container-one {
+        background-image: url('_img/narg3.jpg');
+        height: 100vh;
+        background-size: 100% 100%;
+    }
 }
