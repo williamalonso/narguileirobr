@@ -21,17 +21,17 @@
       z-index: 999;
   }
   .navbar-brand {
-      color: #fff;
+      color: #fff!important;
       font-size: 35px;
   }
   .navbar-brand:hover {
-      color: #fff;
+      color: #fff!important;
   }
   .nav-link {
       font-size: 20px;
   }
   .nav-link:hover, a:hover, .nav-link:focus, .nav-logo {
-      color: #01DFA5;
+      color: #01DFA5!important;
   }
   .nav-item {
       margin-right: 10px;
@@ -42,19 +42,19 @@
   }
   .button-buy {
       text-decoration: none;
-      color: #fff;
+      color: #fff!important;
       font-size: 15px;
-      background-color: #01DFA5;
+      background-color: #01DFA5!important;
       border-radius: 50px 50px 50px 50px;
       padding: 11px;
       transition: transform .4s;
   }
   .button-buy:hover {
-      color: #fff;
+      color: #fff!important;
       transform: scale(1.1);
   }
   .navbar-nav li a {
-      color: #fff;
+      color: #fff!important;
   }
   .fixed-top {
       background-color: #282f4e;
@@ -65,7 +65,7 @@
       box-shadow: unset;
   }
   .nav-bgColor {
-    background-color: #282f4e;
+    background-color: #282f4e!important;
     padding-bottom: 20px;
   }
 
@@ -92,7 +92,7 @@
     position: absolute;
     height: 5px;
     width: 80%;
-    background: #01DFA5;
+    background: #01DFA5!important;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -171,13 +171,13 @@
       left: 0;
   }
   .home h1 {
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.5)!important;
       font-size: 6em;
       font-weight: 600;
       width: 900px;
   }
   .styled-home-spn {
-      color: #01DFA5;
+      color: #01DFA5!important;
   }
 
 /* ===== About Us Section ===== */
@@ -191,7 +191,7 @@
       justify-content: center;
   }
   .content h1 {
-      color: #fff;
+      color: #fff!important;
       font-size: 3.5em;
       font-weight: 600;
       text-align: center;
@@ -199,25 +199,25 @@
       margin-top: 30px;
   }
   .content h2 {
-      color: #fff;
+      color: #fff!important;
       text-align: center;
       font-size: 2em;
       margin-bottom: 30px;
   }
   .content h3 {
-      color: #fff;
+      color: #fff!important;
       font-size: 1.5em;
       margin-bottom: 30px;
       text-align: center;
   }
   .span-about-us {
-      color: #01DFA5;
+      color: #01DFA5!important;
   }
 
 /* ===== Our Products ===== */
 
   .figure {
-      background: #1d1d1d;
+      background: #1d1d1d!important;
       display: inline-block;
       margin: 10px;
       max-width: 280px;
@@ -243,8 +243,9 @@
     height: 100%;
   }
   .section-6 {
-    background: #0B0719;
-    color: #efefef;
+    background: #0B0719!important;
+    color: #efefef!important;
+    background-color: #0B0719!important;
     padding-bottom: 100px
   }
   .section-6 .heading h1 {
@@ -254,7 +255,7 @@
   }
   .section-6 .figure {
     text-align: left;
-    background: #1d1d1d;
+    background: #1d1d1d!important;
     font-size: 16px;
   }
   
@@ -323,7 +324,7 @@
   .section-6 .figure figcaption:after {
     position: absolute;
     content: '';
-    background-color: #01DFA5;
+    background-color: #01DFA5!important;
     z-index: 1;
     -webkit-transition: all 0.35s ease-in;
     transition: all 0.35s ease-in;
@@ -383,17 +384,17 @@
 /* ===== Scroll Bar ===== */
 
 ::-webkit-scrollbar {
-    background: #fff;
+    background: #fff!important;
     width: 11px;
     border-radius: 2em;
 }
 ::-webkit-scrollbar-thumb {
-    background: #282f4e;
+    background: #282f4e!important;
     width: 100%;
     border-radius: 2em;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #454f6d;
+    background: #454f6d!important;
 }
 
 /* ===== Footer ===== */
@@ -404,16 +405,16 @@
 }
 .f-link {
   text-decoration: none;
-  color: #01DFA5;
+  color: #01DFA5!important;
 }
 .f-p1 {
   font-size: 30px;
-  color: #fff;
+  color: #fff!important;
   padding-top: 40px;
 }
 .f-p2 {
   font-size: 17px;
-  color: #fff;
+  color: #fff!important;
 }
 
 /* ===== Media Queries ===== */
