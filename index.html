@@ -63,6 +63,7 @@
       <div class="heading">
         <h1 class="text-center">Nossos produtos</h1>
       </div>
+      <div class="subtitle-products text-center pb-5 d-none">(clique na imagem para legenda)</div>
       <div class="row row_product">
         <figure class="figure">
           <img src="_img/empire.webp" class="narg-one">
@@ -139,9 +140,13 @@
           $('.navbar-expand-lg').toggleClass('nav-bgColor');
         });
 
+        if( $(window).width() < 1024 ) {
+          $('.subtitle-products').removeClass('d-none');
+        }
+
         // Transition effect for navbar 
         $(window).scroll(function() {
-          // checks if window is scrolled more than 500px, adds/removes fixed class
+          // checks if window is scrolled more than 500px and is bigger than 992px, adds/removes fixed class
           if( ($(this).scrollTop() > 500) && ($(this).width() > 992)  ) { 
               $('.navbar').addClass('fixed-top');
           } else {
